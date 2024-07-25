@@ -16,9 +16,6 @@ export default function NavBar() {
                 <NavLink
                     to="/Portfolio"
                 > <FontAwesomeIcon icon={faSuitcase} className='text-[30px] text-[#D1D1D1] hover:text-[#21C4E1] cursor-pointer'/></NavLink>
-                <NavLink
-                    to="/Contact"
-                > <FontAwesomeIcon icon={faEnvelope} className='text-[30px] text-[#D1D1D1] hover:text-[#21C4E1] cursor-pointer' /></NavLink>
             </ul>
         </div>
         </>

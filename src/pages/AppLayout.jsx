@@ -16,20 +16,11 @@ export default function AppLayout() {
             loading="lazy" alt="profile.pic" />
             <div className="flex flex-col gap-1 justify-center items-center">
               <h1 className="font-Jost tracking-wider hidden lg:block min-[1200px]:text-[130%] lg:text-[100%]  text-white font-bold">David Lopez Rodriguez</h1>
-              <h2 className="font-Jost tracking-wider hidden lg:block max-[1200px]:text-[95%] lg:text-[85%]  text-white">Junior Full Stack Developer</h2>
+              <h2 className="font-Jost tracking-wider hidden lg:block max-[1200px]:text-[95%] lg:text-[85%]  text-white">UWTSD Student Id: 2336542</h2>
+              <img className="w-[30px] lg:w-[30%] xs:ml-2 mb-1 rounded-md shadow-md" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThL3g9gax9Pq3vB1UUeTzGRX4g3t_3ewC-Sg&s"
+            loading="lazy" alt="profile.pic" />
             </div>
-            <div className=" flex items-start justify-center ml-[-40px] lg:ml-[1px] gap-3 lg:items-center lg:justify-center lg:gap-5 ">
-            <a href="https://www.linkedin.com/in/david-lopez-b27691216/">
-              <FontAwesomeIcon icon={faLinkedin} className='text-[25px] lg:text-[30px] text-white hover:scale-125 duration-500 cursor-pointer'/>
-              </a>
-              <a href="https://github.com/dlrodev92">
-              <FontAwesomeIcon icon={faGithub} className='text-[25px] lg:text-[30px] text-white hover:scale-125 duration-500 cursor-pointer' />
-              </a>
-            </div>
-            <a href={resume} download="Resume.pdf" className=" xs:mr-2 font-Jost tracking-wider text-white border-2 border-white font-bold p-1 w-[170px] rounded-2xl lg:rounded-[35px] lg:w-[60%] lg:h-[65px] flex items-center justify-center hover:scale-110  duration-500 cursor-pointer lg:shadow-xl ">
-              Resume
-            <FontAwesomeIcon icon={faFileArrowDown} className='ml-4 lg:text-[30px] text-white animate-bounce'/>
-            </a>
+            
           </div>
           <motion.div className='bg-white lg:w-[75%] lg:h-full lg:rounded-[50px] shadow-inner w-full h-[88%] rounded-b-[20px]'
                 initial={{ x: 300, opacity: 0 }}

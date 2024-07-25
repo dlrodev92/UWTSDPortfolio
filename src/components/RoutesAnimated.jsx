@@ -1,41 +1,29 @@
-import AppLayout from "../pages/AppLayout";
-import Home from "../pages/Home";
-import Portfolio from "../pages/Portfolio";
-import Contact from "../pages/Contact";
-import About from "../pages/About";
-import MigthyMiniMinds from "../pages/MigthyMiniMinds";
-import BigBang from "../pages/BigBang";
-import ThisPortfolio from "../pages/ThisPortfolio";
-import ElDorado from "../pages/ElDorado";
-import DistractionDefender from "../pages/DistractionDefender";
-import ShowsLatinos from "../pages/ShowsLatinos";
-import IbbUploader from "../pages/IbbUploader";
+import React from 'react';
+import { Route, Routes, useLocation } from 'react-router-dom';
 
-import {
-    Route,
-    Routes,
-    useLocation
-  } from "react-router-dom";
-  
-  
+import AppLayout from '../pages/AppLayout';
+import Home from '../pages/Home';
+import Portfolio from '../pages/Portfolio';
+import About from '../pages/About';
+import LDEA from '../pages/LDEA';
+import Task1 from '../pages/LDEApages/Task1';
+import Task2 from '../pages/LDEApages/Task2';
+import Task3 from '../pages/LDEApages/Task3';
+import Task4 from '../pages/LDEApages/Task4';
 
-export default function RoutesAnimated(){
-   const location = useLocation();
-    return (
-    <Routes location={location} key={location.pathname}>
-        <Route path="/"element={<AppLayout/>}>
-            <Route path="/" element={<Home/>} />
-            <Route path="Portfolio" element={<Portfolio/>} />
-            <Route path="Contact" element={<Contact/>} />
-            <Route path="About" element={<About/>} />
-            <Route path="MigthyMiniMinds" element={<MigthyMiniMinds/>} />
-            <Route path="ThisPortfolio" element={<ThisPortfolio/>} />
-            <Route path="BigBang" element={<BigBang/>} />
-            <Route path="ElDorado" element={<ElDorado/>} />
-            <Route path="DistractionDefender" element={<DistractionDefender/>} />
-            <Route path="ShowsLatinos" element={<ShowsLatinos/>} />
-            <Route path="IbbUploader" element={<IbbUploader/>} />
-        </Route>
-      </Routes>
-    )
+export default function RoutesAnimated() {
+  return (
+    <Routes>
+      <Route path="/" element={<AppLayout />}>
+        <Route index element={<Home />} />
+        <Route path="Portfolio" element={<Portfolio />} />
+        <Route path="About" element={<About />} />
+        <Route path="LDEAssesment" element={<LDEA />} />
+        <Route path="LDEAssesment/task1" element={<Task1 />} />
+        <Route path="LDEAssesment/task2" element={<Task2 />} />
+        <Route path="LDEAssesment/task3" element={<Task3 />} />
+        <Route path="LDEAssesment/task4" element={<Task4 />} />
+      </Route>
+    </Routes>
+  );
 }

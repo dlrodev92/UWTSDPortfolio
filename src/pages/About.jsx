@@ -202,28 +202,22 @@ export default function About() {
         transition={{ duration: 1 }}
         >
           <p className='text-sm md:text-md lg:text-lg font-jost text-white ml-[25px]'>
-          The moment has finally arrived! Armed with my skills gained trought 2 bootcamps and my self-taught, I am now fully prepared to launch my career as a developer. 
+          Armed with my skills gained trought 2 bootcamps and my self-taught, I am now fully prepared to launch my career as a developer. 
           </p>
           <img src="https://i.ibb.co/Gx4Q21j/Graphic-Design-2.png" alt="picture" loading='lazy' className='w-[20%]' />
         </motion.div>
-      </div>
-      <div className='flex flex-col justify-center items-center w-full gap-3 mb-10'>
-       <motion.h1 className='text-[1.5rem] md:text-[2.5rem] font-Jost font-bold text-blueBackground'
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        <motion.div className='bg-blueBackground flex justify-evenly items-center col-start-1 col-span-6 row-start-8 rounded-[20px] ml-[-25px] p-2 shadow-xl'
+        initial={{ opacity: 0, scale: 0.5 }}
+        whileInView={{ opacity: 1 , scale: 1}}
         transition={{ duration: 1 }}
-       > Let's work together!
-       </motion.h1>
-       <motion.button
-          className="font-Jost tracking-wider text-white border-2 bg-blueBackground font-bold p-1 w-[40%] lg:w-[30%] rounded-[35px] h-[65px] flex items-center justify-center hover:scale-110 duration-500 cursor-pointer lg:shadow-xl"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          onClick={handleNavigate}
         >
-          Send Me A Message
-        </motion.button>
+          <p className='text-sm md:text-md lg:text-lg font-jost text-white ml-[25px]'>
+          In 2024 after failing to get into the tech world I decided to keep enhancing my tech skills studiying in the University of Wales . 
+          </p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThL3g9gax9Pq3vB1UUeTzGRX4g3t_3ewC-Sg&s" alt="picture" loading='lazy' className='w-[20%] rounded-md' />
+        </motion.div>
       </div>
+      
     </div>
     
   );
