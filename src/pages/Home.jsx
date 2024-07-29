@@ -11,7 +11,7 @@ export default function Home() {
 
     const handleTimerSpecialty = () => {
     const specialties = [ "React", "NodeJs", "Django", "Git" ,"JavaScript", "Python",];
-    const statements = ["I create secure backend applications using NodeJs and Django", "I'm currently expanding my knowledge of web arquitecture  through studies on the Platzi Platform", "I use Git to track and manage my projects", "I've worked for over 6 months on different projects as freelancer", "I develop dynamic and responsive web applications using React",]
+    const statements = ["I develop secure backend applications with Node.js and Django.", "I'm currently enhancing my knowledge of computing at the UWTSD University ", "I use Git to track and manage my projects", "I have a Year of experience working on various projects as a freelancer.", "I develop dynamic and responsive web applications using React, NextJs, CSS and HTML",]
     let i = 0;
     let a = 0
 
@@ -43,8 +43,8 @@ export default function Home() {
                         exit={{ x: '100%' }}
                         transition={{ duration: 0.7 }}>
                             <h1 className="lg:text-[1.4rem] text-[1rem] font-Jost bold relative border-b-8 border-blueBackground text-center">
-                                Hi! I'm David, a junior web developer specializing in
-                            <motion.span 
+                                Hi! I'm David, a UWTSD computing student and an aspiring web developer 
+                            {/* <motion.span 
                                 key={specialty}
                                 className="ml-2"
                                 initial={{ opacity: 0 }}
@@ -53,7 +53,7 @@ export default function Home() {
                                 transition={{ duration: 0.7 }}
                             >
                               {specialty}
-                            </motion.span>
+                            </motion.span> */}
                             </h1>
                             
                             <motion.li 
