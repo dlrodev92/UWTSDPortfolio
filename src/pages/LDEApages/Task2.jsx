@@ -3,6 +3,7 @@ import Paragraph from "../../components/Paragraph"
 import References from "../../components/References"
 import AssessmentFooter from "../../components/AssesmentFooter";
 import poster from "../../assets/images/poster.png"
+import mindmap from "../../assets/images/mindmap.png"
 
 
 export default function Task2() {
@@ -15,17 +16,12 @@ export default function Task2() {
         {
           text: " A. Soronen, 'Emotional Labour in Magazine Work,' Journalism Practice, vol. 12, no. 3, pp. 290-307, 2018, doi: 10.1080/17512786.2017.1297685.",
           link: "https://www.researchgate.net/publication/315895340_Emotional_Labour_in_Magazine_Work_Suppressing_and_evoking_emotions_as_part_of_project-based_teamwork",
-          accessDate: "18-Jul-2024"
+          accessDate: "24-Jul-2024"
         },
         {
-          text: "University of London, Critical thinking and writing, in Critical Thinking Guide, pp. 1-4, 2020",
-          link: "https://studenthub.city.ac.uk/__data/assets/pdf_file/0011/372818/2.-Critical-thinking-guide_FINAL.pdf",
-          accessDate: "18-Jul-2024"
-        },
-        {
-          text: "‘The first pulse you take is your own’ – but don't forget your colleagues'. Emotion teamwork in pre-hospital emergency medical services, doi.org/10.1111/1467-9566.12261 ",
+          text: "Nicolas Henckes,‘The first pulse you take is your own’ – but don't forget your colleagues'. Emotion teamwork in pre-hospital emergency medical services, doi.org/10.1111/1467-9566.12261 ",
           link: "https://onlinelibrary.wiley.com/doi/10.1111/1467-9566.12261",
-          accessDate: "18-Jul-2024"
+          accessDate: "24-Jul-2024"
         }
       ];
 
@@ -78,7 +74,7 @@ export default function Task2() {
             Poster Link  
         </motion.h1>
         <Paragraph>
-            The ability to think critically is also an essential skill. 
+          Check the poster here <a href="https://1drv.ms/i/s!AvN9O2Ym8AXYbOcAOXAVgCRv37g?e=cDlgTv" className="bg-blueBackground text-white font-Jost text-lg py-2 px-4 rounded-md transition-colors duration-300 hover:bg-blue-700">Link To Poster</a>
         </Paragraph>
         <motion.h1 className="lg:text-[1.4rem] text-[1.2rem] font-Jost font-bold text-center p-2"
             initial={{ opacity: 0 }}
@@ -90,7 +86,7 @@ export default function Task2() {
         </motion.h1>
 
         <motion.img
-            src={poster}
+            src={mindmap}
             loading="lazy"
             initial={{ opacity: 0 }}
             alt="A3 Poster"
@@ -109,7 +105,7 @@ export default function Task2() {
         </motion.h1>
 
         <Paragraph>
-             Learning how to best manage time, think critically, and adapt during university will lead to 
+             Check the mind map here <a href="https://1drv.ms/i/s!AvN9O2Ym8AXYa11E900e54ljTvI?e=e2IXVZ" className="bg-blueBackground text-white font-Jost text-lg py-2 px-4 rounded-md transition-colors duration-300 hover:bg-blue-700">Link To Mindmap</a>
         </Paragraph>
         <motion.h1 className="lg:text-[1.4rem] text-[1.2rem] font-Jost font-bold text-center p-2 underline text-blueBackground"
             initial={{ opacity: 0 }}
