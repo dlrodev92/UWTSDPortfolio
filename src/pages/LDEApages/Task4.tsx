@@ -60,20 +60,20 @@ export default function Task4() {
         </Paragraph>
 
         <Paragraph>
-            <span className="font-bold text-[1.3rem]">Constant Improvement:</span> The content of the data in my first essay is currently embedded directly into the HTML. My mid-term goal: is  to create an API to store my projects in a database and pull that data into my portfolio dynamically.
+            <span className="font-bold text-[1.3rem]">Constant Improvement:</span> The content of the data in my first essay is currently embedded directly into the HTML. My mid-term goal is  to create an API to store my projects in a database and pull that data into my portfolio dynamically and I can achieve that with this portfolio.
         </Paragraph>
 
         <Paragraph>
-            <span className="font-bold text-[1.3rem]">Flexibility and Customisability:</span>  React allows me to be flexible and create a highly customisable design that can fully express my ideas. I can create something that is exclusive, just for me while using a web builder I would not have that flexibility.
+            <span className="font-bold text-[1.3rem]">Flexibility and Customisability:</span>  React allowed me flexibility and creativity. I wanted a unique design that express my ideas as I wanted. I finally created something that is exclusive, on the other hand using a web builder I would not have that flexibility and I would have had to stick to templates or what the builder allows the user to do.
         </Paragraph>
 
         
         <Paragraph>
-            <span className="font-bold text-[1.3rem]"> Comfort and Accuracy:</span>  MY familiarity with React and related technologies makes it easy for me to do what I need on this project.
+            <span className="font-bold text-[1.3rem]"> Comfort and Accuracy:</span>  My familiarity with React helped me to do what I needed on this project.
         </Paragraph>
 
         <Paragraph>
-            To summarized, choosing these tools would provide me a framework for a vibrant, professional e-portfolio that will grow with me and my work throughout my academic career.
+            To summarized, choosing these tools provides me a framework for a professional unique design e-portfolio that will grow along with me and my work throughout my academic career.
         </Paragraph>
        
        
