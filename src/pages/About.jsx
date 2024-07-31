@@ -154,7 +154,7 @@ export default function About() {
         transition={{ duration: 1 }}
         >
           <p className='text-sm md:text-md xs:text-[0.5rem] lg:text-lg font-jost text-black ml-[25px]'>
-          During Covid, I decided to explore new avenues of personal and professional development. Although my language degree at the Open University didn't progress as planned, I seized the opportunity to redirect my focus. I embarked on an journey into the realms of marketing, copywriting, and email marketing.
+          During Covid, I decided to explore new avenues of personal and professional development. I embarked on an journey into the realms of marketing, copywriting, and email marketing.   Moved to London and ventured into the realm of freelancing, offering my expertise in email marketing for e-commerce sites and pursuing copywriting as a rewarding side hustle.
           </p>
           <img src="https://i.ibb.co/2hYnf1p/Untitled-design-28.png" alt="picture" loading='lazy' className='w-[20%]' />
         </motion.div>
@@ -170,15 +170,15 @@ export default function About() {
         transition={{ duration: 1 }}
         >
           <p className='text-sm md:text-md lg:text-lg xs:text-[0.5rem] font-jost text-white ml-[25px]'>
-          Moved to London. I found myself back in the vibrant world of restaurants and hotels. Alongside my work in the hospitality sector, I also ventured into the realm of freelancing, offering my expertise in email marketing for e-commerce sites and pursuing copywriting as a rewarding side hustle.
+          Got hired at Harrods while exploring my next career move. It was during my time there that I stumbled upon the fascinating world of coding. I embarked on a journey of learning HTML, CSS, and JavaScript, and learned the foundations of web development.
           </p>
-          <img src="https://i.ibb.co/Hz2GNMD/Untitled-design-29.png" alt="picture" loading='lazy' className='w-[20%]' />
+          <img src="https://1000marcas.net/wp-content/uploads/2021/06/Harrods-Logo.png" alt="picture" loading='lazy' className='w-[20%]' />
         </motion.div>
         <motion.h3 className='text-xl md:text-[2rem] font-Jost font-bold text-black row-start-7 col-start-8 '
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        >2022
+        >2023
         </motion.h3>
         <motion.div className='border-4 border-blueBackground flex justify-evenly items-center col-start-1 col-span-6 row-start-7 rounded-[20px] p-2 ml-[-25px] shadow-xl'
         initial={{ opacity: 0, scale: 0.5 }}
@@ -186,15 +186,15 @@ export default function About() {
         transition={{ duration: 1 }}
         >
           <p className='text-sm md:text-md lg:text-lg font-jost xs:text-[0.5rem] text-black ml-[25px]'>
-          Got hired at Harrods while exploring my next career move. It was during my time there that I stumbled upon the fascinating world of coding. I embarked on a journey of learning HTML, CSS, and JavaScript, and learned the foundations of web development.
+          I decided to take my skills to the next level and enrolled in two bootcamps: one in front-end development and the other in full-stack development. But failed to find a Job in the tech industry.
           </p>
-          <img src="https://1000marcas.net/wp-content/uploads/2021/06/Harrods-Logo.png" loading='lazy' alt="picture" className='w-[20%] font-color-blueBackground' />
+          <img src="https://i.ytimg.com/vi/hHwblpw3grg/maxresdefault.jpg" loading='lazy' alt="picture" className='w-[20%] rounded-full' />
         </motion.div>
         <motion.h3 className='text-xl md:text-[2rem] font-Jost font-bold text-black row-start-8 col-start-8 '
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        >2023
+        >2024
         </motion.h3>
         <motion.div className='bg-blueBackground flex justify-evenly items-center col-start-1 col-span-6 row-start-8 rounded-[20px] ml-[-25px] p-2 shadow-xl'
         initial={{ opacity: 0, scale: 0.5 }}
@@ -202,19 +202,9 @@ export default function About() {
         transition={{ duration: 1 }}
         >
           <p className='text-sm md:text-md lg:text-lg font-jost text-white ml-[25px]'>
-          Armed with my skills gained trought 2 bootcamps and my self-taught, I am now fully prepared to launch my career as a developer. 
+          The failure will not stop my stubbornness so I decided to pursuit a bachelor degree in computing at the UWTSD in order to achieve my goal of becoming a software engineer.
           </p>
-          <img src="https://i.ibb.co/Gx4Q21j/Graphic-Design-2.png" alt="picture" loading='lazy' className='w-[20%]' />
-        </motion.div>
-        <motion.div className='bg-blueBackground flex justify-evenly items-center col-start-1 col-span-6 row-start-8 rounded-[20px] ml-[-25px] p-2 shadow-xl'
-        initial={{ opacity: 0, scale: 0.5 }}
-        whileInView={{ opacity: 1 , scale: 1}}
-        transition={{ duration: 1 }}
-        >
-          <p className='text-sm md:text-md lg:text-lg font-jost text-white ml-[25px]'>
-          In 2024 after failing to get into the tech world I decided to keep enhancing my tech skills studiying in the University of Wales . 
-          </p>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThL3g9gax9Pq3vB1UUeTzGRX4g3t_3ewC-Sg&s" alt="picture" loading='lazy' className='w-[20%] rounded-md' />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThL3g9gax9Pq3vB1UUeTzGRX4g3t_3ewC-Sg&s" alt="picture" loading='lazy' className='w-[20%] rounded-full' />
         </motion.div>
       </div>
       

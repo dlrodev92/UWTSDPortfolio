@@ -2,6 +2,10 @@ import {motion} from "framer-motion"
 import Paragraph from "../../components/Paragraph"
 import References from "../../components/References"
 import AssessmentFooter from "../../components/AssesmentFooter";
+import referenceSearch from "../../assets/images/referenceSearch.png" 
+import ReferenceCreation from "../../assets/images/ReferenceCreation.png"
+import refIEEStyle from "../../assets/images/refIEEStyle.png"
+import refIEEstyle2 from "../../assets/images/refIEEstyle2.png"
 
 
 export default function Task3() {
@@ -116,6 +120,57 @@ export default function Task3() {
           }}>
              Refworks Practical Evidence  
         </motion.h2>
+
+           <motion.img
+                src={referenceSearch}
+                loading="lazy"
+                initial={{ opacity: 0 }}
+                alt="Refworks"
+                animate={{ opacity: 1 }}
+                transition={{ duration: 3, ease: "easeInOut" }}
+                className="w-[80%] mx-auto shadow-lg"
+            />
+           <Paragraph>
+           Refworks makes easy to search for references. It's database provides us with lots of academic resources.
+           </Paragraph>
+
+           <motion.img
+                src={ReferenceCreation}
+                loading="lazy"
+                initial={{ opacity: 0 }}
+                alt="Refworks"
+                animate={{ opacity: 1 }}
+                transition={{ duration: 3, ease: "easeInOut" }}
+                className="w-[80%] mx-auto shadow-lg"
+            />
+            <Paragraph>
+            The reference creation feature also provides users with the ability to create references in different formats. Users can add as many fields as they need and can tag them for easy search latter on.
+            </Paragraph>
+
+            <motion.img
+                src={refIEEStyle}
+                loading="lazy"
+                initial={{ opacity: 0 }}
+                alt="Refworks"
+                animate={{ opacity: 1 }}
+                transition={{ duration: 3, ease: "easeInOut" }}
+                className="w-[80%] mx-auto shadow-lg"
+            />
+            <Paragraph>
+            Users can upload their references on fiels and add the style they need for their essay.
+             </Paragraph>
+
+            <motion.img
+                src={refIEEstyle2}
+                loading="lazy"
+                initial={{ opacity: 0 }}
+                alt="Refworks"
+                animate={{ opacity: 1 }}
+                transition={{ duration: 3, ease: "easeInOut" }}
+                className="w-[80%] mx-auto shadow-lg"
+            />
+            
+
         <motion.h2 className="lg:text-[1.4rem] text-[1.2rem] font-Jost font-bold text-center p-2 underline text-blueBackground"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

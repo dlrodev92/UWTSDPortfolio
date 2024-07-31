@@ -2,6 +2,9 @@ import {motion} from "framer-motion"
 import Paragraph from "../../components/Paragraph"
 import References from "../../components/References"
 import AssessmentFooter from "../../components/AssesmentFooter";
+import adaptabilityIMG from "../../assets/images/adaptability.png"
+import criticalthinkingIMG from "../../assets/images/criticalthinking.png"
+import timeManagmentIMG from "../../assets/images/timeManagment.png"
 
 
 export default function Task1() {
@@ -42,7 +45,7 @@ export default function Task1() {
             IEEE Referencing & written summary on essential academic and employment skills. 
         </motion.h1>
         <Paragraph>
-            Developing essential academic skills during university is crucial for a successful career, especially in the field of software engineering where I see myself in 3 years. Three key skills that are particularly valuable are time management, critical thinking, and adaptability.  
+        Developing essential academic skills at university plays a crucial role in future career success. Although there are numerous skills that a university degree can provide, this essay will focus on three skills that have an important impact on the software engineering role: time management, critical thinking and flexibility. 
         </Paragraph>
         <motion.h1 className="lg:text-[1.4rem] text-[1.2rem] font-Jost font-bold text-center p-2"
             initial={{ opacity: 0 }}
@@ -55,6 +58,16 @@ export default function Task1() {
         <Paragraph>
             Good time management is essential for success in academia. At the university, managing coursework, projects, and personal schedules requires efficient use of time where each activity is scheduled at the right time. According to an article on the blog Insure Your Company, time management enables software developers to stay organized, meet deadlines, and avoid overrunning project budgets which can hinder the success of the software development industry.【1】.    
         </Paragraph>
+       
+          <motion.img
+                src={timeManagmentIMG}
+                loading="lazy"
+                initial={{ opacity: 0 }}
+                alt="Refworks"
+                animate={{ opacity: 1 }}
+                transition={{ duration: 3, ease: "easeInOut" }}
+                className="w-[60%] mx-auto shadow-lg"
+            />
         <motion.h1 className="lg:text-[1.4rem] text-[1.2rem] font-Jost font-bold text-center p-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -64,8 +77,17 @@ export default function Task1() {
             Critical Thinking   
         </motion.h1>
         <Paragraph>
-            The ability to think critically is also an essential skill for assessing, researching and solving complex problems. As an engineer, it is key for designing algorithms or solving complex Problems. As more and more AI tools are used, this skill will also differentiate between professionals who are asking questions and understanding outputs from those who will not. 【2】【3】.   
+          Thinking critically is decisive when it comes to finding software solutions for real-life problems. Engineers need to design algorithms, understand previous software or merge ideas to come up with new solutions. With the rise of Ai tools thinking critically will also become more determined as this skill will differentiate between professionals who are asking questions and understanding AI outputs, and those who are not 【2】 【3】.  
         </Paragraph>
+        <motion.img
+                src={criticalthinkingIMG}
+                loading="lazy"
+                initial={{ opacity: 0 }}
+                alt="Refworks"
+                animate={{ opacity: 1 }}
+                transition={{ duration: 3, ease: "easeInOut" }}
+                className="w-[60%] mx-auto shadow-lg"
+            />
         <motion.h1 className="lg:text-[1.4rem] text-[1.2rem] font-Jost font-bold text-center p-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -77,6 +99,15 @@ export default function Task1() {
         <Paragraph>
             In university, students must learn how to adapt to new subjects, technologies, and methodologies. As a software engineer being adaptable is a fundamental skill as the technology and tools evolve quickly, adapting to new programming languages, frameworks, and industry trends is a constant requirement. Software developers must avoid becoming overly attached to specific technologies and remain open to learning, as highlighted by John Sonmez in his advice on avoiding dogmatic beliefs about technology【4】.  
         </Paragraph>
+        <motion.img
+                src={adaptabilityIMG}
+                loading="lazy"
+                initial={{ opacity: 0 }}
+                alt="Refworks"
+                animate={{ opacity: 1 }}
+                transition={{ duration: 3, ease: "easeInOut" }}
+                className="w-[60%] mx-auto shadow-lg"
+            />
         <motion.h1 className="lg:text-[1.4rem] text-[1.2rem] font-Jost font-bold text-center p-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

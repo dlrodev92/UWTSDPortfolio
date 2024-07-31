@@ -17,7 +17,7 @@ export default function AppLayout() {
             <div className="flex flex-col gap-1 justify-center items-center">
               <h1 className="font-Jost tracking-wider hidden lg:block min-[1200px]:text-[130%] lg:text-[100%]  text-white font-bold">David Lopez Rodriguez</h1>
               <h2 className="font-Jost tracking-wider hidden lg:block max-[1200px]:text-[95%] lg:text-[85%]  text-white">UWTSD Student Id: 2336542</h2>
-              <img className="w-[30px] lg:w-[30%] xs:ml-2 mb-1 rounded-md shadow-md" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThL3g9gax9Pq3vB1UUeTzGRX4g3t_3ewC-Sg&s"
+              <img className="w-[60px] lg:w-[30%] xs:ml-2 mb-1 rounded-md shadow-md" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThL3g9gax9Pq3vB1UUeTzGRX4g3t_3ewC-Sg&s"
             loading="lazy" alt="profile.pic" />
             </div>
             
