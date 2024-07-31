@@ -1,5 +1,6 @@
 import {motion} from "framer-motion"
 import ProjCard from "../components/ProjCard"
+import ldaImage from "../assets/images/digitalLearning.png"
 
 export default function Portfolio() {
     return (
@@ -16,7 +17,7 @@ export default function Portfolio() {
 
         <ProjCard
         title="Learning in the Digital Era Assessment 1"
-        image="https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=600"
+        image={ldaImage}
         linkPage="/LDEAssesment"
         overlay="bg-blueBackground"
         />
