@@ -74,7 +74,7 @@ export default function Task2() {
             Poster Link  
         </motion.h1>
         <Paragraph>
-          Check the poster here <a href="https://1drv.ms/i/s!AvN9O2Ym8AXYbOcAOXAVgCRv37g?e=cDlgTv" className="bg-blueBackground text-white font-Jost text-lg py-2 px-4 rounded-md transition-colors duration-300 hover:bg-blue-700">Link To Poster</a>
+          Check the poster here <a href="https://1drv.ms/i/s!AvN9O2Ym8AXYbOcAOXAVgCRv37g?e=cDlgTv" target="_blank" className="bg-blueBackground text-white font-Jost text-lg py-2 px-4 rounded-md transition-colors duration-300 hover:bg-blue-700">Link To Poster</a>
         </Paragraph>
         <motion.h1 className="lg:text-[1.4rem] text-[1.2rem] font-Jost font-bold text-center p-2"
             initial={{ opacity: 0 }}
@@ -105,7 +105,7 @@ export default function Task2() {
         </motion.h1>
 
         <Paragraph>
-             Check the mind map here <a href="https://1drv.ms/i/s!AvN9O2Ym8AXYa11E900e54ljTvI?e=e2IXVZ" className="bg-blueBackground text-white font-Jost text-lg py-2 px-4 rounded-md transition-colors duration-300 hover:bg-blue-700">Link To Mindmap</a>
+             Check the mind map here <a href="https://1drv.ms/i/s!AvN9O2Ym8AXYa11E900e54ljTvI?e=e2IXVZ" target="_blank" className="bg-blueBackground text-white font-Jost text-lg py-2 px-4 rounded-md transition-colors duration-300 hover:bg-blue-700">Link To Mindmap</a>
         </Paragraph>
         <motion.h1 className="lg:text-[1.4rem] text-[1.2rem] font-Jost font-bold text-center p-2 underline text-blueBackground"
             initial={{ opacity: 0 }}
