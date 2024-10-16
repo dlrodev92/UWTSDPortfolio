@@ -10,6 +10,7 @@ import Task1 from '../pages/LDEApages/Task1';
 import Task2 from '../pages/LDEApages/Task2';
 import Task3 from '../pages/LDEApages/Task3';
 import Task4 from '../pages/LDEApages/Task4';
+import ProjectPage from '../pages/ProjectPage';
 
 export default function RoutesAnimated() {
   return (
@@ -23,6 +24,8 @@ export default function RoutesAnimated() {
         <Route path="LDEAssesment/task2" element={<Task2 />} />
         <Route path="LDEAssesment/task3" element={<Task3 />} />
         <Route path="LDEAssesment/task4" element={<Task4 />} />
+        <Route path="project/:id" element={<ProjectPage />} />
+        <Route path="project/LDEAssesment" element={<LDEA />} />
       </Route>
     </Routes>
   );

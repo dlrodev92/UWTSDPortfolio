@@ -1,10 +1,6 @@
 import NavBar from "../components/NavBar";
 import { Outlet } from "react-router-dom";
 import { motion } from "framer-motion";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
-import resume from '../assets/resume.pdf'
 
 export default function AppLayout() {
   return (

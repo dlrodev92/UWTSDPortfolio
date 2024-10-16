@@ -1,5 +1,4 @@
-// src/components/Paragraph.jsx
-import React from 'react';
+
 
 const Paragraph = ({ children }) => {
   return (
